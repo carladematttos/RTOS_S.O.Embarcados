@@ -1,0 +1,718 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"4 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\kernel.c
+[e E2585 . `uc
+READY 0
+RUNNING 1
+WAITING 2
+WAITING_SEM 3
+]
+"28 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\semaphore.c
+[e E2585 . `uc
+READY 0
+RUNNING 1
+WAITING 2
+WAITING_SEM 3
+]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+[v i2___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"4 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\hardware_io.c
+[v _motor_passo_step motor_passo_step `(v  1 e 1 0 ]
+"21
+[v _configura_motor_passo configura_motor_passo `(v  1 e 1 0 ]
+"27
+[v _config_dc_motor config_dc_motor `(v  1 e 1 0 ]
+"33
+[v _parar_motor parar_motor `(v  1 e 1 0 ]
+"39
+[v _acionar_sentido_1 acionar_sentido_1 `(v  1 e 1 0 ]
+"51
+[v _config_leds config_leds `(v  1 e 1 0 ]
+"57
+[v _config_adc config_adc `(v  1 e 1 0 ]
+"69
+[v _read_temperature read_temperature `(f  1 e 4 0 ]
+"6 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\kernel.c
+[v _isr_timer isr_timer `IIH(v  1 e 1 0 ]
+"31
+[v _create_task create_task `(v  1 e 1 0 ]
+"48
+[v _setup_os setup_os `(v  1 e 1 0 ]
+"61
+[v _start_os start_os `(v  1 e 1 0 ]
+"73
+[v _delay_task delay_task `(v  1 e 1 0 ]
+"91
+[v _idle idle `(v  1 e 1 0 ]
+"148
+[v _round_robin_scheduler round_robin_scheduler `RR(ui  1 e 2 0 ]
+"172
+[v _scheduler scheduler `RR(ui  1 e 2 0 ]
+"182
+[v _config_timer0 config_timer0 `(v  1 e 1 0 ]
+"6 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\main.c
+[v _main main `(i  1 e 2 0 ]
+"6 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\pipe.c
+[v _pipe_init pipe_init `(v  1 e 1 0 ]
+"20
+[v _pipe_write pipe_write `(v  1 e 1 0 ]
+"36
+[v _pipe_read pipe_read `(v  1 e 1 0 ]
+"6 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\semaphore.c
+[v _sem_init sem_init `(v  1 e 1 0 ]
+"19
+[v _sem_wait sem_wait `(v  1 e 1 0 ]
+"45
+[v _sem_post sem_post `(v  1 e 1 0 ]
+"22 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\user_app.c
+[v _config_app_user config_app_user `(v  1 e 1 0 ]
+"36
+[v _task_temperature_read task_temperature_read `(v  1 e 1 0 ]
+"57
+[v _task_general_control task_general_control `(v  1 e 1 0 ]
+"90
+[v _task_stepper_motor task_stepper_motor `(v  1 e 1 0 ]
+"109
+[v _task_dc_motor task_dc_motor `(v  1 e 1 0 ]
+"450 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S708 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"497
+[s S748 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S757 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S766 . 1 `uc 1 T1CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+]
+[s S770 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S774 . 1 `S708 1 . 1 0 `S748 1 . 1 0 `S757 1 . 1 0 `S766 1 . 1 0 `S770 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES774  1 e 1 @3970 ]
+[s S193 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"669
+[s S202 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S211 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S216 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S219 . 1 `S193 1 . 1 0 `S202 1 . 1 0 `S211 1 . 1 0 `S216 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES219  1 e 1 @3971 ]
+[s S592 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1116
+[s S601 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S610 . 1 `S592 1 . 1 0 `S601 1 . 1 0 ]
+[v _LATBbits LATBbits `VES610  1 e 1 @3978 ]
+[s S153 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"1340
+[s S162 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S171 . 1 `S153 1 . 1 0 `S162 1 . 1 0 ]
+[v _LATDbits LATDbits `VES171  1 e 1 @3980 ]
+[s S816 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1731
+[s S825 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S834 . 1 `S816 1 . 1 0 `S825 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES834  1 e 1 @3987 ]
+"1921
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S699 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1953
+[u S717 . 1 `S699 1 . 1 0 `S708 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES717  1 e 1 @3988 ]
+[s S891 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"4640
+[s S896 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S903 . 1 `S891 1 . 1 0 `S896 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES903  1 e 1 @4032 ]
+[s S856 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"4715
+[s S859 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S866 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S871 . 1 `S856 1 . 1 0 `S859 1 . 1 0 `S866 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES871  1 e 1 @4033 ]
+[s S919 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4819
+[s S922 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S926 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S933 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S936 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S939 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S942 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S945 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S948 . 1 `S919 1 . 1 0 `S922 1 . 1 0 `S926 1 . 1 0 `S933 1 . 1 0 `S936 1 . 1 0 `S939 1 . 1 0 `S942 1 . 1 0 `S945 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES948  1 e 1 @4034 ]
+"4901
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"4908
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S121 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6191
+[s S128 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 T0PS3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S135 . 1 `S121 1 . 1 0 `S128 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES135  1 e 1 @4053 ]
+"6251
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"6272
+[v _STATUS STATUS `VEuc  1 e 1 @4056 ]
+"6399
+[v _BSR BSR `VEuc  1 e 1 @4064 ]
+"6462
+[v _WREG WREG `VEuc  1 e 1 @4072 ]
+[s S47 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6724
+[s S56 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S65 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S69 . 1 `S47 1 . 1 0 `S56 1 . 1 0 `S65 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES69  1 e 1 @4082 ]
+"6904
+[v _STKPTR STKPTR `VEuc  1 e 1 @4092 ]
+"6977
+[v _TOS TOS `VEum  1 e 3 @4093 ]
+[s S24 stack 32 `[10]um 1 stack_data 30 0 `ui 1 stack_size 2 30 ]
+"4 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\kernel.c
+[s S33 tcb 44 `ui 1 task_ID 2 0 `ui 1 task_PRIOR 2 2 `S24 1 task_STACK 32 4 `*.37(v 1 task_PTR 2 36 `uc 1 task_WREG 1 38 `uc 1 task_BSRREG 1 39 `uc 1 task_STATUSREG 1 40 `E2585 1 task_STATE 1 41 `ui 1 task_time_sleeping 2 42 ]
+[s S43 ready_queue 224 `[5]S33 1 tasks 220 0 `ui 1 queue_size 2 220 `ui 1 task_running 2 222 ]
+[v _Ready_queue Ready_queue `S43  1 e 224 0 ]
+[s S384 sem 14 `i 1 sem_cont 2 0 `ui 1 sem_initial_value 2 2 `[3]ui 1 sem_queue 6 4 `ui 1 sem_queue_size 2 10 `ui 1 sem_queue_pos_release 2 12 ]
+"17 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\user_app.c
+[s S390 pipe 34 `ui 1 pos_read 2 0 `ui 1 pos_write 2 2 `[2]uc 1 pipe_data 2 4 `S384 1 pipe_sem_write 14 6 `S384 1 pipe_sem_read 14 20 ]
+[v _comunicacao comunicacao `S390  1 e 34 0 ]
+"18
+[v _stepper_sem stepper_sem `S384  1 e 14 0 ]
+[v _dc_motor_sem dc_motor_sem `S384  1 e 14 0 ]
+"19
+[v _stepper_buffer stepper_buffer `uc  1 e 1 0 ]
+[v _dc_motor_buffer dc_motor_buffer `uc  1 e 1 0 ]
+"6 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"28
+} 0
+"61 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\kernel.c
+[v _start_os start_os `(v  1 e 1 0 ]
+{
+"71
+} 0
+"182
+[v _config_timer0 config_timer0 `(v  1 e 1 0 ]
+{
+"196
+} 0
+"22 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\user_app.c
+[v _config_app_user config_app_user `(v  1 e 1 0 ]
+{
+"33
+} 0
+"6 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\pipe.c
+[v _pipe_init pipe_init `(v  1 e 1 0 ]
+{
+[s S384 sem 14 `i 1 sem_cont 2 0 `ui 1 sem_initial_value 2 2 `[3]ui 1 sem_queue 6 4 `ui 1 sem_queue_size 2 10 `ui 1 sem_queue_pos_release 2 12 ]
+[s S390 pipe 34 `ui 1 pos_read 2 0 `ui 1 pos_write 2 2 `[2]uc 1 pipe_data 2 4 `S384 1 pipe_sem_write 14 6 `S384 1 pipe_sem_read 14 20 ]
+[v pipe_init@p p `*.39S390  1 p 2 4 ]
+"17
+} 0
+"6 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\semaphore.c
+[v _sem_init sem_init `(v  1 e 1 0 ]
+{
+[s S384 sem 14 `i 1 sem_cont 2 0 `ui 1 sem_initial_value 2 2 `[3]ui 1 sem_queue 6 4 `ui 1 sem_queue_size 2 10 `ui 1 sem_queue_pos_release 2 12 ]
+[v sem_init@s s `*.39S384  1 p 2 0 ]
+[v sem_init@valor valor `ui  1 p 2 2 ]
+"16
+} 0
+"21 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\hardware_io.c
+[v _configura_motor_passo configura_motor_passo `(v  1 e 1 0 ]
+{
+"24
+} 0
+"51
+[v _config_leds config_leds `(v  1 e 1 0 ]
+{
+"54
+} 0
+"27
+[v _config_dc_motor config_dc_motor `(v  1 e 1 0 ]
+{
+"30
+} 0
+"57
+[v _config_adc config_adc `(v  1 e 1 0 ]
+{
+"66
+} 0
+"48 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\kernel.c
+[v _setup_os setup_os `(v  1 e 1 0 ]
+{
+"59
+} 0
+"31
+[v _create_task create_task `(v  1 e 1 0 ]
+{
+[s S24 stack 32 `[10]um 1 stack_data 30 0 `ui 1 stack_size 2 30 ]
+"34
+[s S33 tcb 44 `ui 1 task_ID 2 0 `ui 1 task_PRIOR 2 2 `S24 1 task_STACK 32 4 `*.37(v 1 task_PTR 2 36 `uc 1 task_WREG 1 38 `uc 1 task_BSRREG 1 39 `uc 1 task_STATUSREG 1 40 `E2585 1 task_STATE 1 41 `ui 1 task_time_sleeping 2 42 ]
+[v create_task@new_task new_task `S33  1 a 44 12 ]
+"31
+[v create_task@id id `ui  1 p 2 6 ]
+[v create_task@prior prior `ui  1 p 2 8 ]
+[v create_task@func func `*.37(v  1 p 2 10 ]
+"46
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"91 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\kernel.c
+[v _idle idle `(v  1 e 1 0 ]
+{
+"100
+} 0
+"36 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\user_app.c
+[v _task_temperature_read task_temperature_read `(v  1 e 1 0 ]
+{
+"38
+[v task_temperature_read@temperature temperature `f  1 a 4 80 ]
+"39
+[v task_temperature_read@level level `uc  1 a 1 79 ]
+"54
+} 0
+"69 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\hardware_io.c
+[v _read_temperature read_temperature `(f  1 e 4 0 ]
+{
+"75
+[v read_temperature@adc_value adc_value `i  1 a 2 76 ]
+"78
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 52 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 51 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 42 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 50 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1350 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1355 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S1358 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1350 1 fAsBytes 4 0 `S1355 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1358  1 a 4 67 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 63 ]
+[s S1426 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1429 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1426 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1429  1 a 2 71 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 62 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 61 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 60 ]
+"8
+[v ___flmul@b b `d  1 p 4 39 ]
+[v ___flmul@a a `d  1 p 4 43 ]
+"205
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 62 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 55 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 60 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 67 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 66 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 59 ]
+"11
+[v ___fldiv@b b `d  1 p 4 47 ]
+[v ___fldiv@a a `d  1 p 4 51 ]
+"185
+} 0
+"20 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\pipe.c
+[v _pipe_write pipe_write `(v  1 e 1 0 ]
+{
+[s S384 sem 14 `i 1 sem_cont 2 0 `ui 1 sem_initial_value 2 2 `[3]ui 1 sem_queue 6 4 `ui 1 sem_queue_size 2 10 `ui 1 sem_queue_pos_release 2 12 ]
+[s S390 pipe 34 `ui 1 pos_read 2 0 `ui 1 pos_write 2 2 `[2]uc 1 pipe_data 2 4 `S384 1 pipe_sem_write 14 6 `S384 1 pipe_sem_read 14 20 ]
+[v pipe_write@p p `*.39S390  1 p 2 42 ]
+[v pipe_write@data data `uc  1 p 1 44 ]
+"33
+} 0
+"19 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\semaphore.c
+[v _sem_wait sem_wait `(v  1 e 1 0 ]
+{
+"38
+[v sem_wait@stack_size_545 stack_size `ui  1 a 2 126 ]
+"32
+[v sem_wait@stack_size stack_size `ui  1 a 2 124 ]
+[s S384 sem 14 `i 1 sem_cont 2 0 `ui 1 sem_initial_value 2 2 `[3]ui 1 sem_queue 6 4 `ui 1 sem_queue_size 2 10 `ui 1 sem_queue_pos_release 2 12 ]
+"19
+[v sem_wait@s s `*.39S384  1 p 2 118 ]
+"42
+} 0
+"45
+[v _sem_post sem_post `(v  1 e 1 0 ]
+{
+"65
+[v sem_post@stack_size_554 stack_size `ui  1 a 2 51 ]
+"59
+[v sem_post@stack_size stack_size `ui  1 a 2 49 ]
+[s S384 sem 14 `i 1 sem_cont 2 0 `ui 1 sem_initial_value 2 2 `[3]ui 1 sem_queue 6 4 `ui 1 sem_queue_size 2 10 `ui 1 sem_queue_pos_release 2 12 ]
+"45
+[v sem_post@s s `*.39S384  1 p 2 43 ]
+"69
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 117 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 112 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 114 ]
+"25
+} 0
+"73 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\kernel.c
+[v _delay_task delay_task `(v  1 e 1 0 ]
+{
+"85
+[v delay_task@stack_size_324 stack_size `ui  1 a 2 124 ]
+"81
+[v delay_task@stack_size stack_size `ui  1 a 2 122 ]
+"73
+[v delay_task@time time `ui  1 p 2 118 ]
+"89
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i1___wmul@product product `ui  1 a 2 116 ]
+"15
+[v i1___wmul@multiplier multiplier `ui  1 p 2 112 ]
+[v i1___wmul@multiplicand multiplicand `ui  1 p 2 114 ]
+"53
+} 0
+"172 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\kernel.c
+[v _scheduler scheduler `RR(ui  1 e 2 0 ]
+{
+"180
+} 0
+"148
+[v _round_robin_scheduler round_robin_scheduler `RR(ui  1 e 2 0 ]
+{
+"150
+[v _next_task next_task `ui  1 a 2 0 ]
+[v _vez vez `ui  1 a 2 2 ]
+"169
+} 4
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 42 ]
+[v ___flge@ff2 ff2 `d  1 p 4 46 ]
+"19
+} 0
+"57 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\user_app.c
+[v _task_general_control task_general_control `(v  1 e 1 0 ]
+{
+"58
+[v task_general_control@temperature_level temperature_level `uc  1 a 1 61 ]
+"87
+} 0
+"36 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\pipe.c
+[v _pipe_read pipe_read `(v  1 e 1 0 ]
+{
+[s S384 sem 14 `i 1 sem_cont 2 0 `ui 1 sem_initial_value 2 2 `[3]ui 1 sem_queue 6 4 `ui 1 sem_queue_size 2 10 `ui 1 sem_queue_pos_release 2 12 ]
+[s S390 pipe 34 `ui 1 pos_read 2 0 `ui 1 pos_write 2 2 `[2]uc 1 pipe_data 2 4 `S384 1 pipe_sem_write 14 6 `S384 1 pipe_sem_read 14 20 ]
+[v pipe_read@p p `*.39S390  1 p 2 53 ]
+[v pipe_read@data data `*.39uc  1 p 2 55 ]
+"49
+} 0
+"90 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\user_app.c
+[v _task_stepper_motor task_stepper_motor `(v  1 e 1 0 ]
+{
+"106
+} 0
+"4 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\hardware_io.c
+[v _motor_passo_step motor_passo_step `(v  1 e 1 0 ]
+{
+[v motor_passo_step@step step `i  1 p 2 62 ]
+"13
+} 0
+"109 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\user_app.c
+[v _task_dc_motor task_dc_motor `(v  1 e 1 0 ]
+{
+"123
+} 0
+"33 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\hardware_io.c
+[v _parar_motor parar_motor `(v  1 e 1 0 ]
+{
+"36
+} 0
+"39
+[v _acionar_sentido_1 acionar_sentido_1 `(v  1 e 1 0 ]
+{
+"42
+} 0
+"6 C:\Users\21crl\Desktop\Trabalho_1\Trabalho_1\kernel.c
+[v _isr_timer isr_timer `IIH(v  1 e 1 0 ]
+{
+"22
+[v isr_timer@stack_size_285 stack_size `ui  1 a 2 22 ]
+"19
+[v isr_timer@stack_size stack_size `ui  1 a 2 20 ]
+"10
+[v isr_timer@i i `i  1 a 2 24 ]
+"28
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i2___wmul@product product `ui  1 a 2 4 ]
+"15
+[v i2___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v i2___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+[v i2___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v i2___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v i2___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v i2___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
